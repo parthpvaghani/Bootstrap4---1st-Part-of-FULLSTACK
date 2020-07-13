@@ -47,8 +47,12 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" alt="logo" class="img-fluid ">
+                </div>
+                <div class="col-12 d-sm-none">&nbsp;</div>
+                <div class="col-12  col-sm-3 align-self-center">
+                    <a class="btn btn-warning pl-5 pr-5" href="#reservetable">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -59,15 +63,17 @@
             <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
-            <div class="col col-sm col-md order-sm-first">
+            <div class="col col-sm col-md">
                 <div class="media">
-                    <img src="img/uthappizza.png" alt="uthappizza" class="img-thumbnail d-flex align-self-center mr-3">
+                    <img src="img/uthappizza.png" alt="uthappizza" class=" img-thumbnail d-flex align-self-center ">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-secondary badge-pill ml-1">4.99$</span> </h2>
-                        <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola
-                        olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span
+                                class="badge badge-secondary badge-pill ml-1">4.99$</span> </h2>
+                        <p class="p-2">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with
+                            Cerignola
+                            olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -80,14 +86,16 @@
             <div class="col col-sm col-md order-sm-last">
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0">Weekend Grand Buffet</h2>
-                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
-                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                            appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                            just
                             $19.99 per person </p>
                     </div>
                     <img src="img/buffet.png" alt="buffet" class="d-flex align-self-center img-thumbnail ml-3">
                 </div>
-                
+
             </div>
         </div>
 
@@ -101,12 +109,69 @@
                     <div class="media-body">
                         <h2>Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with
+                        <p>Award winning three-star Michelin chef with wide International experience having worked
+                            closely with
                             whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
                             experiences. </p>
                     </div>
                 </div>
-                
+
+            </div>
+        </div>
+        <div class="row" id="reservetable">
+            <div class=" col-12 col-sm-8 container my-5 ">
+                <div class="card">
+                    <div class=" card-header bg-warning text-white">
+                        <h2>Reserve a Table</h2>
+                    </div>
+                    <div class="card-body">
+
+
+                        <dl class="row">
+
+                            <dt class="col-12 col-sm-2">
+                                <label for="numberofguests">Number of Guests</label>
+
+                            </dt>
+                            <dd class="col">
+                                <input type="radio" name="numberofguests" id="numberofguests" value="1" class="mx-1">1
+                                <input type="radio" name="numberofguests" id="numberofguests" value="2" class="mx-1">2
+                                <input type="radio" name="numberofguests" id="numberofguests" value="3" class="mx-1">3
+                                <input type="radio" name="numberofguests" id="numberofguests" value="4" class="mx-1">4
+                                <input type="radio" name="numberofguests" id="numberofguests" value="5" class="mx-1">5
+                                <input type="radio" name="numberofguests" id="numberofguests" value="6" class="mx-1">6
+                            </dd>
+
+                        </dl>
+                        <dl class="row ">
+
+                            <dt class="col-12 col-sm-2">
+                                <label for="date">Date and Time</label>
+                            </dt>
+                            <dd class="col-sm-5">
+                                <input type="text" name="date" id="date"  class="form-control" placeholder="Date">
+                             
+                            </dd>
+                            <dd class="col-sm-5">
+                                <input type="text" name="time"  class="form-control" placeholder="Time">
+                            </dd>
+                            
+
+                        </dl>
+
+                        <dl class="row ">
+
+                            
+                            <dd class="col offset-sm-2 ">
+                                <button class="btn btn-primary" type="submit" >Reserve</button>
+                            </dd>
+
+                        </dl>
+
+
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>

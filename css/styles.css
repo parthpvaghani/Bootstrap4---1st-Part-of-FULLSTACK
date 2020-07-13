@@ -1,7 +1,9 @@
 body{
-    padding-top: 50px;;
+    padding-top: 50px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .footer{
     background-color: rgb(230, 167, 167);
     margin: auto;
