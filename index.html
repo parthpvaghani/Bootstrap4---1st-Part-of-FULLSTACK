@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-12 d-sm-none">&nbsp;</div>
                 <div class="col-12  col-sm-3 align-self-center">
-                    <a class="btn btn-warning pl-5 pr-5" href="#reservetable">Reserve Table</a>
+                    <a class="btn btn-warning pl-5 pr-5" data-toggle="tooltip" data-placement="bottom" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>" href="#reservetable">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -65,11 +65,11 @@
             </div>
             <div class="col col-sm col-md">
                 <div class="media">
-                    <img src="img/uthappizza.png" alt="uthappizza" class=" img-thumbnail d-flex align-self-center ">
+                    <img src="img/uthappizza.png" alt="uthappizza" class=" img-thumbnail d-flex align-self-center mr-3">
                     <div class="media-body">
                         <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span
                                 class="badge badge-secondary badge-pill ml-1">4.99$</span> </h2>
-                        <p class="p-2">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with
+                        <p >A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with
                             Cerignola
                             olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
@@ -234,6 +234,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
