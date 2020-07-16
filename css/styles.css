@@ -76,3 +76,10 @@ a{
 .option{
     font-size: smaller;
 }
+
+#carouselButton{
+    position: absolute;
+    bottom: 0em;
+    right: 0em;
+    z-index: 1;
+}
