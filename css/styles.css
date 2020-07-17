@@ -72,4 +72,19 @@ body {
   z-index: 1; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important; 
+}
+
+.modal-content{
+    background-color: #e6a7a7;
+}
+
+.modal-header{
+  background-color: #bd523f;
+  color: floralwhite;
+}
+
+.close{
+  color: floralwhite;
+}
+

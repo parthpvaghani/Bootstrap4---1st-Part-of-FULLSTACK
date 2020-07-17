@@ -160,7 +160,7 @@
                 </ul>
             </div>
             <span class="navbar-text">
-                <a data-toggle="modal" data-target="#loginModal">
+                <a id="loginbutton">
                     <span class="fa fa-sign-in"></span> Login</a>
             </span>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
@@ -182,7 +182,7 @@
                 </div>
                 <div class="col-12 d-sm-none">&nbsp;</div>
                 <div class="col-12  col-sm-3 align-self-center">
-                    <a class="btn btn-warning pl-5 pr-5" data-toggle="modal" data-target="#reservetable">Reserve
+                    <a class="btn btn-warning pl-5 pr-5 " id="reservetable1" >Reserve
                         Table</a>
                 </div>
             </div>
@@ -396,6 +396,12 @@
                 }
                 
             });
+            $("#reservetable1").click(function(){
+                $("#reservetable1").attr('data-toggle','modal');
+                $("#reservetable1").attr('data-target','#reservetable');
+            });
+            $("#loginbutton").attr('data-toggle','modal');
+            $("#loginbutton").attr('data-target','#loginModal');
             
         });
     </script>

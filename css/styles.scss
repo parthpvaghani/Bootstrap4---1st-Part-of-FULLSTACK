@@ -9,9 +9,11 @@ $carousel-item-height: 300px;
 body{
     padding-top: 50px;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 @mixin zero-margin ($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
 	padding: $pad-up-dn $pad-left-right;
@@ -32,12 +34,15 @@ html{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
 }
+
 .row-header:hover{
     color: white;
 }
+
 .row-content:hover{
     color: crimson;
  }
+
 .jumbotron {
     @include zero-margin(70px,30px);
     background: black ;
@@ -93,4 +98,12 @@ body{
 
 a{
     text-decoration: none !important;
+}
+
+.modal-body{
+    background-color:$background-pale;
+}
+
+.modal-header{
+    background-color: $background-dark;
 }
