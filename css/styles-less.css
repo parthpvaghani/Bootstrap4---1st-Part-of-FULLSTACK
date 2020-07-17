@@ -1,75 +1,77 @@
 body {
-  padding-top: 50px; }
-
+  padding-top: 50px;
+}
 html {
-  scroll-behavior: smooth; }
-
+  scroll-behavior: smooth;
+}
 .row-header {
   margin: 0px auto;
   padding: 0px 0px;
-  color: chocolate; }
-
+  color: chocolate;
+}
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; 
+  min-height: 400px;
   align-items: center;
 }
-
 .footer {
   background-color: #e6a7a7;
   margin: 0px auto;
-  padding: 20px 0px; }
-
+  padding: 20px 0px;
+}
 .row-header:hover {
-  color: white; }
-
+  color: white;
+}
 .row-content:hover {
-  color: crimson; }
-
+  color: crimson;
+}
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: black;
-  color: floralwhite; }
-
+  background: black ;
+  color: floralwhite;
+}
 address {
   font-size: 80%;
   margin: 0px;
-  color: #c92b2b; }
-
+  color: #c92b2b;
+}
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
-
+  z-index: 0;
+}
 .navbar-light {
-  background-color: #bd523f; }
-
+  background-color: #bd523f;
+}
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 10px; }
-
+  padding: 10px;
+}
 .carousel {
-  background: #bd523f; }
-  .carousel .carousel-item {
-    height: 300px; }
-    .carousel .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 300px; }
-
+  background: #bd523f;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
 .option {
-  font-size: smaller; }
-
+  font-size: smaller;
+}
 #carouselButton1 {
   position: absolute;
   bottom: 0em;
   right: 0em;
-  z-index: 1; }
-
+  z-index: 1;
+}
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
