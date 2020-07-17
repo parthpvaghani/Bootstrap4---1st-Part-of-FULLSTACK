@@ -1,0 +1,96 @@
+@lt-gray: #ddd;
+@background-dark: rgb(189, 82, 63);
+@background-light: #9575CD;
+@background-pale: rgb(230, 167, 167);
+
+// Height variables
+@carousel-item-height: 300px;
+
+body{
+    padding-top: 50px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+	margin:0px auto;
+	padding: @pad-up-dn @pad-left-right;
+}
+
+.row-header{
+    .zero-margin();
+    color: chocolate
+}
+
+.row-content {
+    .zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: @background-pale;
+    .zero-margin(20px, 0px);
+}
+.row-header:hover{
+    color: white;
+}
+.row-content:hover{
+    color: crimson;
+ }
+.jumbotron {
+    .zero-margin(70px,30px);
+    background: black ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:rgb(201, 43, 43);
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-light {
+     background-color: @background-dark;
+}
+
+.tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    padding: 10px;
+}
+
+.carousel {
+    background:@background-dark;
+
+    .carousel-item {
+        height: @carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
+    }
+}
+
+.option{
+    font-size: smaller;
+}
+
+#carouselButton1{
+    position: absolute;
+    bottom: 0em;
+    right: 0em;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none !important;
+}
