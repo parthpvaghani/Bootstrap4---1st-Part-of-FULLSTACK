@@ -397,11 +397,14 @@
                 
             });
             $("#reservetable1").click(function(){
-                $("#reservetable1").attr('data-toggle','modal');
-                $("#reservetable1").attr('data-target','#reservetable');
+                // $("#reservetable1").attr('data-toggle','modal');
+                // $("#reservetable1").attr('data-target','#reservetable');
+                $("#reservetable").modal("show");
             });
-            $("#loginbutton").attr('data-toggle','modal');
-            $("#loginbutton").attr('data-target','#loginModal');
+            $("#loginbutton").click(function(){
+                $("#loginModal").modal("show");
+            });
+            
             
         });
     </script>

@@ -13,9 +13,7 @@ html {
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; 
-  align-items: center;
-}
+  min-height: 400px; }
 
 .footer {
   background-color: #e6a7a7;
@@ -72,19 +70,16 @@ body {
   z-index: 1; }
 
 a {
-  text-decoration: none !important; 
-}
+  text-decoration: none !important; }
 
-.modal-content{
-    background-color: #e6a7a7;
-}
+.modal-content {
+  background-color: #e6a7a7; }
 
-.modal-header{
+.modal-header {
   background-color: #bd523f;
-  color: floralwhite;
-}
+  color: floralwhite; }
 
-.close{
-  color: floralwhite;
-}
+.close {
+  color: floralwhite; }
 
+  
